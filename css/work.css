@@ -1,0 +1,198 @@
+#page{
+    width: 100%;
+    overflow-x: hidden;
+}
+.work_content{
+    padding-top: 265px;
+    background: url(../images/work-bg.jpg) no-repeat top center #fff;
+    background-size: 100% auto;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-bottom: 5%;
+}
+.inside_content {
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.page_title {
+    padding-right: 33%;
+    font-size: 6.2vw;
+    font-weight: 900;
+    line-height: 0.9;
+    margin-bottom: 7%;
+    color: #4b4b4b;
+}
+.page_title span{
+    color: #20a4cc;
+    display: block;
+}
+
+.banner_content p{
+    font-size: 1.8vw;
+    line-height: 1.2;
+    color: #4b4b4b;
+    font-family: 'Roboto Slab', serif;
+    padding-right: 15%;
+}
+.banner_content p span{
+    font-family: 'Roboto Slab', serif;
+
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+
+
+}
+.show_filter{
+    cursor: pointer;
+        padding-right: 30px;
+
+}
+.show_filter:after{
+    border: solid #4b4b4b;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 6px;
+    content: '';
+    transform: rotate(45deg);
+   -webkit-transform: rotate(45deg);
+
+   position: absolute;
+   top: 50%;
+   right: 0;
+   margin-top: -10px;
+}
+.js-works-filters{
+    opacity: 0;
+    visibility: hidden;
+
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+.js-works-filters.show{
+    opacity: 1;
+    visibility: visible;
+}
+.js-works-filters li{
+    width: 25%;
+    padding-right: 3%;
+    font-size: 1.25vw;
+    font-weight: 300;
+    color: #4b4b4b;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+.js-works-filters li a{
+        color: #4b4b4b;
+        cursor: pointer;
+}
+.js-works-filters li a.is-active {
+    color: #20a4cc;
+}
+.full_screen{
+    position: relative;
+    width: 100%;
+}
+.full_screen .bg-all{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 0;
+
+}
+.full_screen .bg_one{ background-image: url(../images/work-bg-1.jpg) ; }
+.full_screen .bg_two{background-image: url(../images/work-bg-2.jpg) ; }
+.full_screen .slider_wrap {
+    padding-left: 9%;
+    padding-right: 9%;
+    position: relative;
+    z-index: 1;
+}
+.full_screen .inside_content{
+    width: 100%;
+}
+.slider_wrap h2{
+    color: #fff;
+    font-size: 4.15vw;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.2;
+}
+.slider_wrap p{
+    font-size: 1.4vw;
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    line-height: 1.4;
+    margin: 0;
+}
+
+
+/*.slider_wrap .slide_title {
+    opacity: 0;
+    transition: all 0.8s ease;
+    -webkit-transition: all 0.8s ease;
+
+    transform: translate(-20vw, 0);
+    -webkit-transform: translate(-20vw, 0);
+}
+.section.active .slider_wrap .slide_title {
+    opacity: 1;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+}*/
+.slider_wrap .link_slide{
+    height: 80px;
+    width: 80px;
+    display: block;
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 100%;
+
+    transition-duration: .4s;
+	transition-timing-function: cubic-bezier(.25, .74, .22, .99);
+
+    -webkit-transition-duration: .4s;
+	-webkit-transition-timing-function: cubic-bezier(.25, .74, .22, .99);
+
+}
+.section.active .slider_wrap .link_slide {
+    opacity: 1;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+}
+.slider_wrap .link_slide:after{
+    content: "";
+    position: absolute;
+    height: 62px;
+    width: 62px;
+    background: url(../images/right_white.png) no-repeat center center;
+    background-size: 62px auto;
+    display: block;
+    left: 0;
+    top: 50%;
+
+    transition-duration: .4s;
+	transition-timing-function: cubic-bezier(.25, .74, .22, .99);
+
+    -webkit-transition-duration: .4s;
+	-webkit-transition-timing-function: cubic-bezier(.25, .74, .22, .99);
+
+    transform: translate(-31px, -50%);
+    -webkit-transform: translate(-31px, -50%);
+}
+.slider_wrap .link_slide:hover{
+    border-color: #fff;
+}
+.slider_wrap .link_slide:hover:after{
+    transform: translate(31px, -50%);
+    -webkit-transform: translate(31px,-50%);
+}
+
+.view__screen.js-works-background{
+    opacity: 0.6;
+}

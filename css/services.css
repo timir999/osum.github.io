@@ -1,0 +1,216 @@
+
+.about_content{
+    padding-top: 265px;
+    background: url(../images/service-top.jpg) no-repeat top center;
+    background-size: 100% auto;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+.inside_content {
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.page_title {
+    padding-right: 15%;
+    font-size: 6.2vw;
+    font-weight: 900;
+    line-height: 0.9;
+    margin-bottom: 7%;
+}
+.page_title span{
+    color: #20a4cc;
+    display: block;
+}
+
+.banner_content p{
+    font-size: 1.77vw;
+    line-height: 1.2;
+    color: #4b4b4b;
+    font-family: 'Roboto Slab', serif;
+    padding-right: 5%;
+}
+
+.service-content{
+    margin-top: 7%;
+    display: block;
+    padding-top: 26.05%;
+    background: url(../images/service_image.jpg) no-repeat left center;
+    background-size: auto 100%;
+    margin-bottom: 7%;
+}
+
+.service-accordion{
+    padding-left: 9%;
+    padding-right: 9%;
+    margin-bottom: 10%;
+}
+
+.service-accordion .panel-group{
+    padding-left: 20%;
+    padding-right: 9%;
+}
+.panel-collapse{
+    display: none;
+}
+.panel-collapse.in{
+    display: block;
+}
+.panel-group .panel{
+    margin-bottom: 4%;
+}
+
+.panel-group .panel-heading .panel-title{
+    font-size: 3.125vw;
+    line-height: 1.4;
+    font-weight: bold;
+    margin: 0;
+    color: #4b4b4b;
+
+}
+.panel-group .panel-heading .panel-title a{
+    color: #4b4b4b;
+    text-decoration: none;
+}
+.panel-group .panel-heading .panel-title .number{
+    margin-right: 7%;
+    opacity: 0.2;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+.panel-group .panel-heading .panel-title:hover .number,
+.panel-group .panel.open .panel-heading .panel-title .number{
+    opacity: 1;
+}
+
+.panel-group .panel.open .panel-heading .panel-title,
+.panel-group .panel.open .panel-heading .panel-title a{
+    color: #20a4cc;
+}
+.panel-group .panel-body {
+    padding: 15px 0 0;
+    padding-left: 15%;
+}
+.panel-body .col-4{
+    width: 30%;
+}
+.panel-body .col-8{
+    width: 66%;
+}
+
+.panel-body p{
+    font-size: 1.5625vw;
+    line-height: 1.4;
+    color: #4b4b4b;
+}
+.panel-body .col-4 p{
+    font-family: 'Roboto Slab', serif;
+}
+.panel-body ul{
+    list-style: none;
+    display: block;
+    padding: 0;
+    margin: 0 0 30px;
+}
+.panel-body ul li{
+    font-size: 1.5625vw;
+    line-height: 1.4;
+    color: #4b4b4b;
+    padding-left: 45px;
+    background: url(../images/list-bg.jpg) no-repeat left center;
+    margin-bottom: 3%;
+}
+.panel-body .btn-link {
+    color: #20a4cc;
+    border: 1px solid #20a4cc;
+    font-size: 28px;
+    line-height: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    display: inline-block;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    text-decoration: none;
+}
+.panel-body .btn-link:hover{
+    color: #fff;
+    background: #20a4cc;
+}
+
+@media (min-width:1024px) and (max-width:1210px){
+    .panel-body ul li{
+        background-size: 20px auto;
+    }
+}
+@media (min-width:768px) and (max-width:1024px){
+    .about_content{
+        padding-top: 190px;
+    }
+    .panel-body ul li{
+        background-size: 20px auto;
+    }
+
+}
+@media (min-width:0px) and (max-width:767px){
+
+    .about_content{
+        padding-top: 92px;
+
+    }
+    .inside_content{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .page_title{
+        font-size: 38px;
+        line-height: 1em;
+        padding-right: 0;
+    }
+    .banner_content p{
+        font-size: 12px;
+        line-height: 1.2em;
+    }
+    .service-content{
+        padding-top: 27.45%;
+    }
+    .service-accordion .panel-group{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .panel-group .panel-heading .panel-title{
+        font-size: 19px;
+        line-height: 1.2em;
+        position: relative;
+    }
+    .panel-group .panel-heading .panel-title .number{
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .panel-group .panel-heading .panel-title a{
+        padding-left: 40px;
+    }
+    .panel-group .panel-body{
+        padding: 10px 0  0 40px;
+    }
+    .panel-body .col-8,
+    .panel-body .col-4{
+        width: auto;
+    }
+    .panel-body .col-4 br{
+        display: none;
+    }
+    .panel-body p{
+        font-size: 12px;
+        line-height: 1.2em;
+        margin-bottom: 10px;
+    }
+    .panel-body ul li{
+        font-size: 12px;
+        line-height: 1.2em;
+        padding-left: 16px;
+        background-size: 10px auto;
+    }
+}

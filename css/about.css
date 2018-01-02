@@ -1,0 +1,692 @@
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+.about_content{
+    padding-top: 265px;
+    background: url(../images/about_bg.jpg) no-repeat top center;
+    background-size: 100% auto;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+.inside_content {
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.page_title {
+    padding-right: 33%;
+    font-size: 6.2vw;
+    font-weight: 900;
+    line-height: 0.9;
+    margin-bottom: 7%;
+}
+.page_title span{
+    color: #20a4cc;
+    display: block;
+}
+
+.banner_content p{
+    font-size: 1.8vw;
+    line-height: 1.2;
+    color: #4b4b4b;
+    font-family: 'Roboto Slab', serif;
+    padding-right: 15%;
+}
+
+.about-content {
+    margin-top: 7%;
+    position: relative;
+    margin-bottom: 7%;
+
+    transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+}
+
+.about-content img {
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+    display: block;
+}
+
+.about-content .about-tag {
+    position: relative;
+    left: 0;
+    top: 20%;
+    z-index: 99;
+    line-height: 1.8;
+}
+
+.about-content .about-tag span{
+        color: #fff;
+        font-size: 4.17vw;
+        line-height: 1.2;
+        display: table;
+        margin: 2px 0;
+        font-weight: 900;
+
+}
+
+.image_section_center{
+    background: #20a4cc;
+    width: 100vw;
+    height: 100vh;
+    left: 50%;
+
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+
+    padding: 0 16.8vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.image_section_center video{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    -webkit-object-fit: cover;
+    z-index: 0;
+    opacity: 0.4;
+}
+.image_section_center img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    -webkit-object-fit: cover;
+    z-index: 0;
+}
+
+.bottom {
+    position: absolute;
+    width: 100%;
+    bottom: 5%;
+    left: 0;
+    text-align: center;
+    color: #fff;
+}
+.scroll_down {
+    font-size: 30px;
+    line-height: 32px;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    background: url(../images/down-white.png) no-repeat top center;
+    background-size: 17px auto;
+    padding-top: 80px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+.scroll_down:hover{
+    background-position: top 10px center
+}
+.scroll_down span{
+    font-family: 'Roboto Slab', serif;
+    opacity: 0.6;
+    transition: opacity 0.5s ease;
+    -webkit-transition: opacity 0.5s ease;
+}
+.scroll_down:hover span{
+    opacity: 1;
+}
+.work-with h2{
+    font-size: 3.125vw;
+    line-height: 1.2;
+    font-weight: 900;
+    margin-bottom: 5%;
+}
+
+.work-grid {
+    margin-bottom: 7%;
+}
+
+.work-grid .work-box {
+    width: 30%;
+
+}
+
+.work-grid .work-box .work-head {
+    margin-bottom: 7%;
+}
+.work-grid .work-box span {
+    font-size: 1.5vw;
+    color: #4b4b4b;
+    line-height: 1.8;
+    margin-top: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.work-grid .work-box h3 {
+    font-size: 3.125vw;
+    line-height: 1.2;
+    font-weight: 900;
+    margin: 0;
+}
+
+.work-grid .work-box h3 span{
+    display: block;
+    color: #20a4cc;
+    font-size: 3.125vw;
+    line-height: 1.2;
+        font-family: 'Roboto', serif;
+}
+
+
+.work-with p {
+    font-size: 1.5vw;
+    color: #4b4b4b;
+    line-height: 1.4;
+}
+
+.work-with .no-bottom {
+    margin-bottom: 1%;
+    padding: 0;
+}
+
+
+.team-info{
+    padding-top: 61%;
+    background: url(../images/team.jpg) no-repeat bottom center;
+    background-size: cover;
+    position: relative;
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+
+.team-content {
+    width: 67%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+
+.team-content > * {
+    max-width: 50%;
+}
+
+.team-content h2{
+    font-size: 3.125vw;
+    line-height: 1.2;
+    font-weight: 900;
+    margin-bottom: 2%;
+}
+.team-content p {
+    font-size: 1.5vw;
+    color: #4b4b4b;
+    line-height: 1.4;
+    margin-bottom: 5%;
+}
+
+.team-content .btn-link {
+    color: #20a4cc;
+    border: 1px solid #20a4cc;
+    font-size: 28px;
+    line-height: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px 30px;
+
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    text-decoration: none;
+}
+.team-content .btn-link:hover{
+    color: #fff;
+    background: #20a4cc;
+}
+.honors{
+    margin-bottom: 5%;
+}
+.honors h2 {
+    font-size: 3.125vw;
+    line-height: 1.2;
+    font-weight: 900;
+    margin-bottom: 2%;
+}
+.honors p {
+    font-size: 1.5vw;
+    color: #4b4b4b;
+    line-height: 1.4;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 5%;
+}
+
+.honors .honors-grid{
+    margin-top: 5%;
+}
+.honors .honors-grid .honor-box{
+    width: 26%;
+}
+.honors .honors-grid h2{
+    font-size: 4.895vw;
+    font-weight: 700;
+    line-height: 1;
+    padding: 0;
+}
+.honors .honors-grid .honor-box p{
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    font-size: 1.979vw;
+}
+
+.slider-for .flex .thumb{
+    text-align: center;
+    width: 24%;
+}
+.slider-for .flex .quote-content{
+    width: 62%;
+}
+.thub_image {
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 5000px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 45px;
+}
+.thub_image img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    border-radius: 5000px;
+    object-fit: cover;
+
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+}
+
+.slider-for .flex .thumb p{
+    text-align: center;
+    font-size: 1.145vw;
+    color: #363636;
+    line-height: 1.2;
+    font-family: 'Roboto Slab', serif;
+
+}
+.slider-for .flex .thumb p .blue {
+    color: #20a4cc;
+    font-size: 1.25vw;
+    margin-bottom: 10px;
+    display: block;
+
+}
+
+.slider-for .flex .quote-content p {
+    font-size: 1.145vw;
+    line-height: 1.8;
+    color: #4b4b4b;
+}
+.slider-for .flex .quote-content > *:first-child {
+    margin-top: 15%;
+}
+
+.slider-quotes{
+    position: relative;
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+.slider-quotes .client_title{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    text-align: left;
+    padding-left: 38%;
+}
+
+.slider-nav {
+    padding-left: 38%;
+    margin: 0 -18px;
+    padding-right: 156px;
+}
+
+.slider-nav .image-thumb{
+    padding: 0 18px;
+}
+
+.slider-nav .slick-prev{
+    display: none !important;
+}
+
+.slider-nav .slick-next{
+    position: absolute;
+    height: 48px;
+    width: 48px;
+    top: 50%;
+    right: 54px;
+    margin-top: -24px;
+
+    font-size: 0;
+    border: 0;
+    line-height: 0;
+    display: block;
+    background: transparent;
+
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+
+}
+.slider-nav .slick-next:hover{
+    opacity: 0.5;
+}
+.slider-nav .thub_image{
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    background: #fff;
+    cursor: pointer;
+
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+.slider-nav .slick-current .thub_image{
+    border: 1px solid 20a4cc;
+    background: #20a4cc;
+}
+.slider-nav .thub_image img{
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+.slider-nav .thub_image:hover img{
+    opacity: 0.7;
+}
+.slider-nav .slick-current .thub_image img{
+    opacity: 0.7;
+}
+.slider-nav .slick-next:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+
+    background: url(../images/arrow-slider.png) no-repeat center center;
+    background-size: 35px auto;
+}
+body .serif{
+    font-family: 'Roboto Slab', serif;
+}
+
+
+@media (min-width:768px) and (max-width:1024px){
+    .about_content{
+        padding-top: 190px;
+    }
+    .honors .honors-grid img{
+        max-width: 100%;
+        height: auto;
+    }
+    .slider-nav{
+        padding-right: 110px;
+    }
+    .slider-nav .slick-next{
+        width: 30px;
+        height: 30px;
+        margin-top: -15px;
+    }
+    .slider-nav .slick-next::after{
+        background-size: auto 100%;
+    }
+}
+.honors .honors-grid .image{
+     order: 3;
+}
+@media (min-width:0px) and (max-width:767px){
+
+    .about_content{
+        padding-top: 92px;
+
+    }
+    .inside_content{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .page_title{
+        font-size: 38px;
+        line-height: 1em;
+        padding-right: 0;
+    }
+    .banner_content p{
+        font-size: 12px;
+        line-height: 1.4em;
+    }
+    .image_section_center{
+        height: 100vw;
+        padding: 0 10%;
+        display: block;
+        background-image: url(../images/about-banner.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .image_section_center video{
+        display: none;
+    }
+    .about-content .about-tag{
+        top: 10%;
+    }
+    .about-content .about-tag span{
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .scroll_down{
+        font-size: 18px;
+        line-height: 20px;
+        padding-top: 40px;
+        background-size: auto 30px;
+    }
+
+    .work-with h2{
+        font-size: 21px;
+        line-height: 1.4em;
+        margin-bottom: 15px;
+    }
+    .work-grid{
+        display: block;
+    }
+    .work-grid .work-box{
+        width: 100%;
+    }
+
+    .work-grid .work-box h3 span{
+        margin: 0;
+    }
+    .work-grid .work-box h3,
+    .work-grid .work-box h3 span{
+        font-size: 21px;
+        line-height: 1.2em;
+    }
+    .work-grid .work-box span{
+        font-size: 12px;
+        margin: 0;
+    }
+    .work-grid .work-box .work-head{
+        margin-bottom: 15px;
+    }
+    .work-with p{
+        font-size: 12px;
+        line-height: 1.4em;
+    }
+    .work-with .slick-dots{
+        list-style: none;
+        display: block;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .work-with .slick-dots li{
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        margin: 0 10px;
+    }
+    .work-with .slick-dots li button{
+        width: 9px;
+        height: 9px;
+        border: 1px solid #24aed2;
+        background: #24aed2;
+        display: block;
+        padding: 0;
+        font-size: 0;
+        line-height: 0;
+        text-indent: -999px;
+        border-radius: 50%;
+    }
+    .work-with .slick-dots li.slick-active button{
+        background: #fff;
+    }
+    .team-info{
+        padding-top:0;
+        padding-bottom: 85%;
+        background-position: right bottom;
+        background-size: 140% auto;
+    }
+    .team-content{
+        position: static;
+        width: 100%;
+        transform: none;
+        -webkit-transform: none;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .team-content h2{
+        font-size: 21px;
+        line-height: 1.4em;
+        margin-bottom: 15px;
+    }
+    .team-content p{
+        font-size: 12px;
+        line-height: 1.4em;
+    }
+    .team-content > *{
+        width: auto;
+        max-width: none;
+    }
+    .honors h2{
+        font-size: 21px;
+        line-height: 1.4em;
+        margin-bottom: 15px;
+    }
+    .honors p{
+        font-size: 12px;
+        line-height: 1.4em;
+    }
+    .honors-grid{
+        display: block;
+    }
+    .honors .honors-grid{
+        margin-top: 30px;
+    }
+    .honors .honors-grid:not(.slick-initialized) .honor-box + .honor-box {
+        clear: both;
+    }
+    .honors-grid .slick-dots{
+        list-style: none;
+        display: block;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .honors-grid .slick-dots li{
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        margin: 0 10px;
+    }
+    .honors-grid .slick-dots li button{
+        width: 9px;
+        height: 9px;
+        border: 1px solid #24aed2;
+        background: #24aed2;
+        display: block;
+        padding: 0;
+        font-size: 0;
+        line-height: 0;
+        text-indent: -999px;
+        border-radius: 50%;
+    }
+    .honors-grid .slick-dots li.slick-active button{
+        background: #fff;
+    }
+    .honors .honors-grid .honor-box{
+        width: 100%;
+        display: block;
+    }
+    .honors .honors-grid h2{
+        font-size: 46px;
+        line-height: 1em;
+        margin-bottom: 0;
+        clear: none;
+    }
+    .honors .honors-grid .honor-box p{
+        font-size: 20px;
+        line-height: 1.2em;
+    }
+    .honors .honors-grid .honor-box .image,
+    .honors .honors-grid .honor-box img{
+        float: left;
+        width: 100px;
+        margin-right: 30px;
+    }
+
+    .slider-quotes .client_title{
+        position: relative;
+        padding: 0;
+        font-size: 21px;
+        text-align: left;
+        line-height: 1.2em;
+    }
+    .slider-for .flex .thumb{
+        display: none;
+    }
+    .slider-for .flex .quote-content{
+        width: 100%;
+    }
+    .slider-for .flex .quote-content > :first-child{
+        margin: 0;
+    }
+    .slider-for .flex .quote-content p{
+        font-size: 12px;
+        line-height: 1.4em;
+    }
+
+    .slider-nav{
+        padding: 0;
+        margin: 0;
+        padding-top: 5px;
+    }
+    .slider-nav .slick-next{
+        display: none !important;
+    }
+    .slider-nav .image-thumb{
+        padding: 18px;
+
+    }
+    .slider-nav .thub_image{
+        width: 50px;
+        height: 50px;
+        padding: 0;
+    }
+
+    .slider-nav .slick-current .thub_image{
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+    }
+
+
+}
